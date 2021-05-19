@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BarChartGenerator.jnlp">
+  <information>
+    <title>BarChartGenerator</title>
+    <vendor>James</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BarChartGenerator.jar" size="6301" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="BarChartGenerator.BarChartGenerator"  name="BarChartGenerator" />
+  <update check="always"/>
+</jnlp>
